@@ -1,0 +1,21 @@
+xampdoc{
+    overflow: scroll;
+}
+
+greeting{
+    color: red;
+    font-size: 30px;
+    display: block;
+}
+
+extension{
+    display: block;
+    color: black;
+    font-size: 28px;
+}
+
+answer[class=ans] extension{
+    color: blue;
+    font-size: 20px;
+}
+
