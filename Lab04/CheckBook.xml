@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type = "text/xsl" href = "CheckBook.xsl"?>
+<checkbook>
+
+    <deposit type="direct-deposit">
+        <payor>Bob's Bolt</payor>
+        <amount>987.32</amount>
+        <date> 21-06-00 </date>
+        <description category="income">Paycheck</description>
+    </deposit>
+    <payment type="check" number="980">
+        <payee>Kimora's Sports Equipment</payee>
+        <amount>40.00</amount>
+        <date>24-6-00</date>
+        <description category="entertainment">kendo equipment</description>
+    </payment>
+    <payment type="atm">
+        <payee>Kimora's Sports Equipment</payee>
+        <amount>132.77</amount>
+        <date>23-6-00</date>
+        <description category="cash">pocket money</description>
+    </payment>
+    <payment type="debit">
+        <payee>Kimora's Sports Equipment</payee>
+        <amount>132.77</amount>
+        <date>23-6-00</date>
+        <description category="food">lunch with Greg</description>
+    </payment>
+    <payment type="check" number="981">
+        <payee>Kimora's Sports Equipment</payee>
+        <amount>132.77</amount>
+        <date>23-6-00</date>
+        <description category="food">groceries</description>
+    </payment>
+    <payment type="debit">
+    <payee>Barnes and Noble</payee>
+    <amount>58.79</amount>
+    <date> 30-6-00</date>
+    <description category="work">O'Reilly Books</description>
+    </payment>
+</checkbook>
